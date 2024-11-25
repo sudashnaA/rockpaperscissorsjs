@@ -3,11 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Rock Paper Scissors</title>
+  <script src="rockpaperscissors.js" defer></script>
 </head>
 <body>
+  <div id="container">
 
-<script src="rockpaperscissors.js"></script>
+    <div id="choicebuttons">
+      <button id="rock">Rock</button>
+      <button id="paper">Paper</button>
+      <button id="scissors">Scissors</button>
+    </div>
 
+    <div id="resultcontainer">
+      <h3>Player score:</h3>
+      <h3 id="pscore">0</h3>
+      <h3> Computer score:</h3>
+      <h3 id="cscore">0</h3>
+      
+      <p id="roundactions"></p>
+      <p id="roundresult"></p>
+    </div>
+
+  </div>
 </body>
 </html>
